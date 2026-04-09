@@ -9,13 +9,15 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// ===== CONFIGURATION BASE DE DONNÉES =====
-define('DB_HOST',    'localhost');
-define('DB_PORT',    '3306');
-define('DB_NAME',    'comep_gestion');
-define('DB_USER',    'root');
-define('DB_PASS',    '');
+// ===== CONFIGURATION BASE DE DONNÉES RAILWAY =====
+define('DB_HOST',    'mysql.railway.internal');     // Sa ki fini pa .rlwy.net la
+define('DB_PORT',    '3306');     // Mete 3306
+define('DB_NAME',    'railway'); // Non database Railway la
+define('DB_USER',    'root');     // Souvan se root
+define('DB_PASS',    'nxCgCCSilIhoYlRFgKcUoEeTdqBIedYz'); // Gwo modpas long lan
 define('DB_CHARSET', 'utf8mb4');
+// Année scolaire active
+define('ANNEE_SCOLAIRE', '2024-2025');
 
 // Année scolaire active
 define('ANNEE_SCOLAIRE', '2024-2025');
